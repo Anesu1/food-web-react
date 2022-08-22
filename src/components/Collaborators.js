@@ -162,7 +162,7 @@ function Collaborators() {
   ],
   };
   return (
-    <Wrapper id="team">
+    <Wrapper id="ingredients">
      
       <Heading>Our Recipes</Heading>
       <Paragraph>GABBY'S VEGETARIAN FOODS</Paragraph>

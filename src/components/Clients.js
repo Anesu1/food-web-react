@@ -97,7 +97,7 @@ const topItems = [
 
 function Clients() {
   return (
-    <Wrapper>
+    <Wrapper id="food">
         <div className="text">
         <h3>More Products</h3>
         <Paragraph>Hopefully you will love one of them</Paragraph>

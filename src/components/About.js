@@ -31,6 +31,7 @@ const Wrapper = styled.section`
     font-size: 30px;
     color: ${(props) => props.theme.color.lightgreen};
     margin-bottom: 20px;
+    margin-top:30px;
   }
   .about-left {
     img{

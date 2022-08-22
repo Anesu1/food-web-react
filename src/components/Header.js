@@ -180,7 +180,7 @@ function Header() {
           <li>
             <Link
               activeClass="active"
-              to="about"
+              to="ingredients"
               spy={true}
               smooth={true}
               duration={500}
@@ -191,7 +191,7 @@ function Header() {
           <li>
             <Link
               activeClass="active"
-              to="services"
+              to="recipes"
               spy={true}
               smooth={true}
               duration={500}
@@ -202,7 +202,7 @@ function Header() {
           <li>
             <Link
               activeClass="active"
-              to="projects"
+              to="food"
               spy={true}
               smooth={true}
               duration={500}
@@ -213,7 +213,7 @@ function Header() {
           <li>
             <Link
               activeClass="active"
-              to="contact"
+              to="blogs"
               spy={true}
               smooth={true}
               duration={500}
@@ -224,7 +224,7 @@ function Header() {
           <li>
             <Link
               activeClass="active"
-              to="contact"
+              to="services"
               spy={true}
               smooth={true}
               duration={500}
