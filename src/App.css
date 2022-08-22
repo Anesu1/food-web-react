@@ -1,38 +1,62 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.lets {
+  width: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.scroll-down header {
+  transform: translate3d(0, -100%, 0);
+  background: rgb(255, 255, 255);
+  margin-top:0;
+  position: fixed;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+.scroll-up header {
+  background:rgb(255, 255, 255);
+  filter: drop-shadow(0 -10px 20px rgb(170, 170, 170));
+  position:fixed;
+  transform: translate3d(0, 0, 0);
 }
 
-.App-link {
-  color: #61dafb;
+
+.scroll-up header img{
+  width:80px;
+}
+.scroll-up header .menu .hamburger{
+  outline-color:#000;
+}
+.scroll-up header .menu .hamburger span{
+  background:#000;
+}
+.scroll-up header .menu .hamburger span::before{
+  background:#000;
+}
+.scroll-up header .menu .hamburger span::after{
+  background:#000;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@media(min-width:992px){
+  .scroll-up header {
+    padding-top:0;
+}
+  .scroll-up header .menu ul li a{
+    color:#000;
+}
+  .scroll-up header .menu ul li a:hover{
+    color:#01996D;
+}
+
+}
+
+.menu-is-open {
+  overflow: hidden;
+
+
+}
+
+.menu-is-open header {
+  filter: none;
 }

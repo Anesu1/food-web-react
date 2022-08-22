@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'Avenir-bold';
+    src: url('./AvenirNext-Bold.ttf');
+}
+@font-face {
+    font-family: 'Avenir-regular';
+    src: url('./AvenirNext-Regular.ttf');
+}
+@font-face {
+    font-family: 'Georgia';
+    src: url('./Georgia.ttf');
+}
+@font-face {
+    font-family: 'Lato';
+    src: url('./Lato-Bold.ttf');
+}
+@font-face {
+    font-family: 'Blockers';
+    src: url('./Blockers\ Stamp.ttf');
+}
