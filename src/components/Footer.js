@@ -10,14 +10,20 @@ import moment from 'moment'
 const Wrapper = styled.section`
 
     display:flex;
+    flex-direction: column;
     justify-content:space-between;
     position:relative;
     padding:5%;
    color:#ffffff;
+   @media(min-width:768px){
+    flex-direction:row;
+   }
    p{
      font-size:15px;
+     margin-bottom:20px;
      &:nth-child(2){
       color:${props => props.theme.color.yelo};
+      margin-bottom:0;
      }
    }
   
