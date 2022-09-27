@@ -88,12 +88,12 @@ function Contact() {
       <Paragraph>admin@gabbsveg.co.zw</Paragraph>
 
       <h3>TELEPHONE</h3>
-      <Paragraph>+263773940374 <br />
-+263777497612 <br />
-+263772614486</Paragraph>
+      <Paragraph>
++263780821323
+ <br />
++263773942374 </Paragraph>
       <h3>SHOP ADDRESS</h3>
-      <Paragraph>Shop ANGWA CITY, SHOP 1, GROUND FLOOR. <br />
-USE ANGWA ENTRANCE OPPOSITE CHOP CHOP RESTAURANT</Paragraph>
+      <Paragraph>15th Floor North Wing Karigamombe Center Harare</Paragraph>
 
       <h3>FACTORY ADDRESS</h3>
       <Paragraph>Factory 1744 New davies way, Waterfalls Industrial park Harare</Paragraph>

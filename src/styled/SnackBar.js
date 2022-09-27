@@ -55,7 +55,7 @@ export default function SimpleSnackbar({open, setOpen}) {
     <Wrapper>
       <Snackbar
         open={open}
-        autoHideDuration={6000}
+        autoHideDuration={30000}
         onClose={handleClose}
         message="Also note that at our shop we have ready to eat Vegetarian products burgers, hot dogs & baobab juice, natural oils, traditional vegetables, dietary supplements, immune boosters, natural sex boosters, skin and hair products."
         action={action}

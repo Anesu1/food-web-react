@@ -1,6 +1,7 @@
 {
   "name": "tali",
   "version": "0.1.0",
+  "homepage":"http://gabbsveg.co.zw/",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.9.0",
