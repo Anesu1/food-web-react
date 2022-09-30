@@ -53,7 +53,7 @@ const Wrapper = styled.section`
 const topItems = [
     {
         text:"Vegetarian burger",
-        imageUrl:"burger.jpeg"
+        imageUrl:"burger.webp"
     },
     {
         text:"Vegetarian balls",
@@ -61,23 +61,23 @@ const topItems = [
     },
     {
         text:"Vegetarian strips",
-        imageUrl:"stripss.jpg"
+        imageUrl:"stripss.webp"
     },
     {
         text:"Vegetarian pops",
-        imageUrl:"pop.jpeg"
+        imageUrl:"pop.webp"
     },
     {
         text:"Tofu",
-        imageUrl:"tofu.jpg"
+        imageUrl:"tofu.webp"
     },
     {
         text:"Falafel",
-        imageUrl:"falafel.jpg"
+        imageUrl:"falafel.webp"
     },
     {
         text:"Fresh soy milk",
-        imageUrl:"soymilk.jpg"
+        imageUrl:"soymilk.webp"
     },
     {
         text:"Gabby's cornflakes",
@@ -85,11 +85,11 @@ const topItems = [
     },
     {
         text:"Gabby's muesli",
-        imageUrl:"muesli.jpeg"
+        imageUrl:"muesli.webp"
     },
     {
         text:"Gabby's bran flakes",
-        imageUrl:"brainflakes.jpg"
+        imageUrl:"brainflakes.webp"
     },
 ]
 

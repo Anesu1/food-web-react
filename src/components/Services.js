@@ -17,7 +17,7 @@ const Wrapper = styled.section`
       rgba(38, 88, 82, 0.9),
       rgba(38, 88, 82, 0.9)
     ),
-    url("./images/services.png");
+    url("./images/services.webp");
   background-size: cover;
   background-position: center right;
   @media (min-width: 768px) {

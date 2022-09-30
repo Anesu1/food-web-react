@@ -9,25 +9,22 @@ import Slider from 'react-slick'
   import "slick-carousel/slick/slick-theme.css";
 import Heading from "../styled/Heading";
 import CarouselItem from "../styled/CarouselItem";
-import patty from '../images/patty.jpeg'
-import mince from '../images/pizza.jpeg'
-import image1 from '../images/sausaages.jpeg'
-import steak from '../images/steak.jpeg'
-import strip from '../images/strip.jpeg'
-import granola from '../images/granola.jpg'
-import spicy from '../images/spicyburder.jpg'
-import vegballs from '../images/vegballs.jpg'
-import sass from '../images/sass.png'
-import pies from '../images/pies.jpg'
-import rolls from '../images/rolls.jpg'
-import pizza from '../images/pizza.jpg'
+import patty from '../images/patty.webp'
+import mince from '../images/pizza.webp'
+import image1 from '../images/sausaages.webp'
+import steak from '../images/steak.webp'
+import strip from '../images/strip.webp'
+import granola from '../images/granola.webp'
+import spicy from '../images/spicyburder.webp'
+import rolls from '../images/rolls.webp'
+import pizza from '../images/pizza.webp'
 
 
 
 const Wrapper = styled.section`
 padding:10% 5%;
 position:relative;
-background: url("./imgs/about.png");
+background: url("./imgs/about.webp");
   background-size: cover;
 
 text-align:center;
@@ -76,18 +73,18 @@ const items = [
     imageUrl:image1,
     text:"VEGETARIAN SAUSAGES"
   },
-  {
-    imageUrl:vegballs,
-    text:"SIMPLE VEGAN BALLS"
-  },
-  {
-    imageUrl:sass,
-    text:"SLICED SIETAN"
-  },
-  {
-    imageUrl:pies,
-    text:"VEGAN PIES"
-  },
+  // {
+  //   imageUrl:vegballs,
+  //   text:"SIMPLE VEGAN BALLS"
+  // },
+  // {
+  //   imageUrl:sass,
+  //   text:"SLICED SIETAN"
+  // },
+  // {
+  //   imageUrl:pies,
+  //   text:"VEGAN PIES"
+  // },
   {
     imageUrl:rolls,
     text:"VEGAN SAUSAGES ROLL"

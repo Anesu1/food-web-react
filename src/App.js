@@ -8,8 +8,6 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import MoreAbout from "./components/MoreAbout";
-import OurProjects from "./components/OurProjects";
-import Services from "./components/Services";
 import SimpleSnackbar from "./styled/SnackBar";
 
 function App() {

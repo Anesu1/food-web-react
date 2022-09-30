@@ -2,8 +2,8 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import styled from "styled-components";
-import { Link, animateScroll as scroll } from "react-scroll";
-import { VscArrowRight } from "react-icons/vsc";
+// import { Link, animateScroll as scroll } from "react-scroll";
+// import { VscArrowRight } from "react-icons/vsc";
 import Paragraph from "../styled/Paragraph";
 import { FaFacebookF, FaLinkedinIn } from "react-icons/fa";
 import Slider from "react-slick";
@@ -53,7 +53,7 @@ const Wrapper = styled.section`
                 rgba(0, 0, 0, 0.45),
                 rgba(0, 0, 0, 0.45)
               ),
-              url("./imgs/banner.jpg");
+              url("./imgs/banner.webp");
             background-size: cover;
             background-position: center center;
             width: 100%;
@@ -65,7 +65,7 @@ const Wrapper = styled.section`
                 rgba(0, 0, 0, 0.45),
                 rgba(0, 0, 0, 0.45)
               ),
-              url("./imgs/banner.png");
+              url("./imgs/banner1.webp");
             background-size: cover;
             background-position: center center;
             width: 100%;

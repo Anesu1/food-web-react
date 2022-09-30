@@ -91,7 +91,7 @@ function OurProjects() {
     <Wrapper id="projects">
       <Heading>Our Projects</Heading>
       <div className="inner">
-        <img src="./images/projects.png" alt="Marara Waste Project" />
+        <img src="./images/projects.webp" alt="Marara Waste Project" />
         <div className="text">
           <h3>Marara Waste Project</h3>
           <Paragraph>
@@ -118,7 +118,7 @@ function OurProjects() {
         </div>
       </div>
       <div className="inner bottom">
-        <img src="./images/projects1.png" alt="Waste Transfer Center" />
+        <img src="./images/projects1.webp" alt="Waste Transfer Center" />
         <div className="text">
           <h3>Waste Transfer Center</h3>
           <h5>Current Project</h5>

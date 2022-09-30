@@ -4,7 +4,7 @@ import Heading from '../styled/Heading';
 import Paragraph from '../styled/Paragraph';
 
 const Wrapper = styled.section`
-    background:url('./imgs/bg.png');
+    background:url('./imgs/bg.webp');
     background-size:cover;
     text-align:center;
     color:#ffffff;
@@ -32,7 +32,7 @@ function MoreAbout() {
 </Paragraph>
         
         <Heading>PURPOSE</Heading>
-      <Paragraph>To be a leading company in the food industry by providing health foods and enhanced services in Sourthen Africa.
+      <Paragraph>To be a leading company in the food industry by providing health foods and enhanced services.
 </Paragraph>
 
 

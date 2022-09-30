@@ -17,7 +17,7 @@ const Wrapper = styled.header`
         padding-top:30px;
     }
     img{
-        width:100px;
+        width:160px;
         z-index:3;
         transition:all 0.7s ease;
         @media(min-width:992px){
@@ -154,7 +154,7 @@ function Header() {
 
   return (
     <Wrapper >
-      <img src="./imgs/logo.png" alt="alitab logo" />
+      <img src="./imgs/logo.webp" alt="alitab logo" />
       <div className="menu">
         <div className={click ? "hamburger open" : "hamburger"} onClick={() => setClick(!click)}>
           <span></span>

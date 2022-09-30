@@ -3,14 +3,13 @@ import React, { useState } from "react";
 import styled from "styled-components";
 import Heading from "../styled/Heading";
 import Paragraph from "../styled/Paragraph";
-import Lightbox from "react-image-lightbox";
 import "react-image-lightbox/style.css";
 import ModalAbout from "../styled/ModalAbout";
 import { disableBodyScroll, enableBodyScroll } from "body-scroll-lock";
 
 const Wrapper = styled.section`
   padding: 10% 5%;
-  background: url("./imgs/about.png");
+  background: url("./imgs/about.webp");
   background-size: cover;
   @media (min-width: 1200px) {
     padding: 5% 15%;
@@ -131,23 +130,22 @@ const Wrapper = styled.section`
   }
 `;
 
-const galleryList = [
-  "./images/designs (3).jpg",
-  "./images/pic/designs (2).jpeg",
-  "./images/pic/designs (3).jpeg",
-  "./images/designs (4).jpg",
-  "./images/pic/designs (4).jpeg",
-  "./images/pic/designs (5).jpeg",
-  "./images/pic/designs (6).jpeg",
-  "./images/pic/designs (7).jpeg",
-  "./images/pic/designs (8).jpeg",
-];
+// const galleryList = [
+//   "./images/designs (3).jpg",
+//   "./images/pic/designs (2).jpeg",
+//   "./images/pic/designs (3).jpeg",
+//   "./images/designs (4).jpg",
+//   "./images/pic/designs (4).jpeg",
+//   "./images/pic/designs (5).jpeg",
+//   "./images/pic/designs (6).jpeg",
+//   "./images/pic/designs (7).jpeg",
+//   "./images/pic/designs (8).jpeg",
+// ];
 
 function About() {
   const [isSolutionOpen, setIsSolutionOpen] = useState(false);
   const [isProjectOpen, setIsProjectOpen] = useState(false);
-  const [galleryIndex, setGalleryIndex] = useState(0);
-  const [galleryOpen, setGalleryOpen] = useState(false);
+ 
 
   isSolutionOpen || isProjectOpen
     ? disableBodyScroll(document)
@@ -159,7 +157,7 @@ function About() {
         
         <div className="top">
           <div className="about-left">
-            <img src="./imgs/intro.jpeg" alt="" />
+            <img src="./imgs/intro.webp" alt="" />
           </div>
           <div className="about-right">
             <Heading>GABBY'S VEGETARIAN PRODUCTS.</Heading>

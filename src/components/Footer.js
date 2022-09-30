@@ -2,8 +2,6 @@
 import React from "react";
 import styled from "styled-components";
 import Paragraph from "../styled/Paragraph";
-import {FaEnvelope, FaMapMarkerAlt} from 'react-icons/fa';
-import {BsFillTelephoneFill} from 'react-icons/bs';
 import moment from 'moment'
 
 
